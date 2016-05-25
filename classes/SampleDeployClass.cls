@@ -1,6 +1,6 @@
 @isTest
 public class SampleDeployClass {
-//UpdatedbyKrishna 5/24/2016 @ 11:47PM
+//UpdatedbyKrishna 5/25/2016 @ 11:47PM
 //Changes for Synbots Demo
     public static testmethod void t1() {
         helloMethod();
@@ -19,5 +19,6 @@ public class SampleDeployClass {
     
     public static void helloMethod() {
         System.debug('Hello World');
+         System.debug('synbots demo debugs');
     }
 }
