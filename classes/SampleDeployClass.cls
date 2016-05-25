@@ -1,7 +1,8 @@
 @isTest
 public class SampleDeployClass {
-//UpdatedbyKrishna 5/17/2016 @ 4:47PM
-    private static testmethod void t1() {
+//UpdatedbyKrishna 5/24/2016 @ 11:47PM
+//Changes for Synbots Demo
+    public static testmethod void t1() {
         helloMethod();
 
         Account acc = new Account(Name= 'fred');
